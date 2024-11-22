@@ -5,7 +5,6 @@
 <title>Lai's Hobbies - Cycling</title>
 <meta name="author" content="Haojun Lai">
 <style>
-
   * {
     margin: 0;
     padding: 0;
@@ -14,40 +13,35 @@
 
   body {
     font-family: 'Arial', sans-serif;
-    background: url('image/cycling_bg.png') no-repeat center center / cover fixed;
     color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
   }
 
- 
-  .nav1 ul {
+  .navbar {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     background: #3b3753;
     overflow: hidden;
-    padding: 0 20%;
-    text-align: center;
-    margin: 0;
   }
 
-  .nav1 li {
-    display: inline-block;
-    width: 130px;
-    height: 50px;
-    line-height: 50px;
-    margin-right: 1%;
+  .navbar li {
+    float: left;
   }
 
-  .nav1 a {
+  .navbar li a {
     display: block;
-    color: #fff;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 0 10px;
   }
 
-  .nav1 a:hover {
+  .navbar li a:hover {
     background-color: #111;
   }
-
 
   article {
     max-width: 1200px;
@@ -85,7 +79,6 @@
     margin: 20px 0;
   }
 
-
   p {
     line-height: 1.6;
     margin-bottom: 20px;
@@ -93,20 +86,15 @@
   }
 </style>
 </head>
-<body>
-<h1><strong>Hobbies</strong></h1>
-<div class="box">
-  <div class="nav1">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="profile.html">Profile</a></li>
-      <li><a href="cycling.html">Hobbies</a></li>
-      <li><a href="reading.html">Reading</a></li>
-      <li><a href="goal.html">Goal</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-  </div>
-</div>
+<body background="image/cycling_bg.png">
+<ul class="navbar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="profile.html">Profile</a></li>
+  <li><a href="cycling.html">Hobbies</a></li>
+  <li><a href="reading.html">Reading</a></li>
+  <li><a href="goal.html">Goal</a></li>
+  <li><a href="contact.html">Contact Me</a></li>
+</ul>
 
 <article class="cycling">
   <h2>Cycling</h2>

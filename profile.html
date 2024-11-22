@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -12,6 +12,9 @@
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            background-image: url('image/index_bg.jpg'); /* Update with your background image path */
+            background-size: cover;
+            transition: background-color 1s; /* Smooth transition for background color */
         }
         .navbar {
             list-style-type: none;
@@ -37,6 +40,8 @@
             width: 80%;
             margin: auto;
             overflow: hidden;
+            opacity: 0; /* Initially hidden */
+            transition: opacity 1s; /* Smooth transition for opacity */
         }
         .profile-header {
             text-align: center;
@@ -91,21 +96,27 @@
         <article class="self_intro">
             <h2>Nice to see you, my dear friend!</h2>
             <p>Murakami Haruki is my favorite writer, who focuses on the sensational feelings from lonely people in the city.</p>
-			<div class="profile-image">
-				<img src="image/Haruki_porfile.jpg" alt="Haruki Murakami">
-				<img src="image/Norway_Forest_profile.jpg" alt="Norway's Forests">
-			</div>
+            <div class="profile-image">
+                <img src="image/Haruki_porfile.jpg" alt="Haruki Murakami">
+                <img src="image/Norway_Forest_profile.jpg" alt="Norway's Forests">
+            </div>
             <p>I like to study something unknown but quite interesting to me and explore the edge of the science. Although it's quite challenging for me to read English academic papers which contain knowledge on the edge, I can also find a sense of achievement after I finish studying.</p>
             <p>Planning to apply for overseas study, I'm preparing for the TOEFL test, which is quite a challenge.</p>
             <p>Recently, I knew that ETH, a historical college, advised professors to <div class="ETH_reject"><a href="https://ethz.ch/staffnet/en/finance-and-controlling/compliance/Exportkontrolle.html" target="_blank">reject applications from China whose applicants want to research in STEM areas</a></div>.</p>
             <p>I felt quite disappointed, for I don't have anything wrong and I'm against the war, but I am STILL DIFFERENTIATED just because of my nationality...</p>
             <p>I deeply felt that in the face of international politics, a person was so small.</p>
-            <p>Luckily, I learned that "several" means 3. </p>
+            <p>Luckily, I learned that "several" means 3.</p>
             <p>What I CAN DO is to improve myself. After 3 years, I hope I can receive a dream offer to pursue my academic career.</p>
             <p>I believe: <strong>God helps those who work hard for themselves.</strong></p>
         </article>
     </div>
 
-
+    <script>
+        // Set the background to be visible for 1.5 seconds
+        setTimeout(function() {
+            document.body.style.backgroundColor = '#f4f4f4';
+            document.querySelector('.container').style.opacity = '1';
+        }, 1500);
+    </script>
 </body>
 </html>
