@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Haojun Lai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lai's index</title>
+    <link rel="stylesheet" href="colorful.css">
+    <link rel="stylesheet" href="span.css">
+    <style>
+        .back-home {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #FF6E00;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .back-home:hover {
+            background-color: #FF0004;
+        }
+    </style>
+    <script src="welcome.js" defer></script>
+</head>
+<body>
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="container">
+            <span class="welcome-text">Welcome to Haojun Lai's Page</span>
+        </div>
+    </div>
+    <div class="content" id="main-content">
+        <h1>Welcome to Haojun Lai's Page!</h1>
+        <button class="back-home" onclick="window.location.href='index.html'">Return back to Dorm's Page</button>
+        <table width="500" border="0" align="center">
+            <tbody>
+                <tr>
+                    <td height="100" align="center" valign="middle"><h2><a href="profile.html">About Me</a></h2></td>
+                </tr>
+                <tr>
+                    <td height="100" align="center" valign="middle"><h2><a href="cycling.html">What I Like</a></h2></td>
+                </tr>
+                <tr>
+                    <td height="100" align="center" valign="middle"><h2><a href="reading.html">Reading Notes</a></h2></td>
+                </tr>
+                <tr>
+                    <td height="100" align="center" valign="middle"><h2><a href="goal.html">My Goal</a></h2></td>
+                </tr>
+                <tr>
+                    <td height="100" align="center" valign="middle"><h2><a href="contact.html">Contact Me</a></h2></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
