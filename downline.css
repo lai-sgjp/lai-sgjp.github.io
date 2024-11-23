@@ -16,9 +16,9 @@ a{
     text-decoration: none;
     color: springgreen;
     position: relative;
-    text-align: center; /* 确保链接文本居中 */
+    text-align: center; 
 }
-/* 下划线（左进右出） */
+
 a::after{
     content: '';
     width: 100%;

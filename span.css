@@ -24,20 +24,20 @@
     font-weight: bold;
     color: #fff;
     text-shadow: 0 20px 20px #222, 0 40px 60px #222;
-    text-align: center; /* 确保欢迎文本居中 */
+    text-align: center; 
 }
 
-/* 新增样式，确保表格中的标题居中 */
+
 table {
     margin-left: auto;
     margin-right: auto;
-    text-align: center; /* 水平居中 */
+    text-align: center; 
 }
 
 td {
-    vertical-align: middle; /* 垂直居中 */
+    vertical-align: middle;
 }
 
 h2 {
-    text-align: center; /* 确保标题居中 */
+    text-align: center; 
 }
