@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="class_home.css">
     <script src="class_welcome.js" defer></script>
 </head>
-<body>
+<body background="image/class_index_bg.jpg">
     <div id="welcome-screen" class="welcome-screen">
         <div class="container">
             <h1 class="welcome-text">欢迎来到2404班的班级主页</h1>
@@ -15,21 +15,23 @@
         </div>
     </div>
     <div class="content" id="main-content" style="display: none;">
-        <h1>班级寝室分布</h1>
-        <div class="dormitory">
-            <h2>东九舍</h2>
-            <button class="dorm-btn" onclick="window.location.href='dorm1.html'">寝室1</button>
-            <button class="dorm-btn" onclick="window.location.href='dorm2.html'">寝室2</button>
-        </div>
-        <div class="dormitory">
-            <h2>东十一舍</h2>
-            <button class="dorm-btn" onclick="window.location.href='dorm222.html'">222</button>
-            <button class="dorm-btn" onclick="window.location.href='dorm223.html'">223</button>
-            <button class="dorm-btn" onclick="window.location.href='dorm224.html'">224</button>
-            <button class="dorm-btn" onclick="window.location.href='dorm225.html'">225</button>
-            <button class="dorm-btn" onclick="window.location.href='dorm226.html'">226</button>
-            <button class="dorm-btn" onclick="window.location.href='dorm227.html'">227</button>
-            <button class="dorm-btn" onclick="window.location.href='mixture_dorm.html'">混寝</button>
+        <h1 style="text-align: center;">班级寝室分布</h1>
+        <div class="dormitory-container">
+            <div class="dormitory" style="float: left; width: 50%;">
+                <h2>东九舍</h2>
+                <button class="dorm-btn" onclick="window.location.href='dorm1.html'">寝室1</button>
+                <button class="dorm-btn" onclick="window.location.href='dorm2.html'">寝室2</button>
+            </div>
+            <div class="dormitory" style="float: right; width: 50%;">
+                <h2>东十一舍</h2>
+                <button class="dorm-btn" onclick="window.location.href='dorm222.html'">222</button>
+                <button class="dorm-btn" onclick="window.location.href='dorm223.html'">223</button>
+                <button class="dorm-btn" onclick="window.location.href='dorm224.html'">224</button>
+                <button class="dorm-btn" onclick="window.location.href='dorm225.html'">225</button>
+                <button class="dorm-btn" onclick="window.location.href='dorm226.html'">226</button>
+                <button class="dorm-btn" onclick="window.location.href='dorm227.html'">227</button>
+                <button class="dorm-btn" onclick="window.location.href='mixture_dorm.html'">混寝</button>
+            </div>
         </div>
     </div>
 </body>
